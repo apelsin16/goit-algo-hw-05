@@ -114,8 +114,8 @@ def read_file(filename):
         return file.read()
 
 # Текстовий файл
-text2 = read_file('f:/Learning/python/goit-algo-hw-05/text2.txt')
-text1 = read_file('f:/Learning/python/goit-algo-hw-05/text1.txt')
+text2 = read_file('/text2.txt')
+text1 = read_file('/text1.txt')
 
 # Підрядки для пошуку
 existing_pattern = "дійсно"
